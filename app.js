@@ -45,7 +45,7 @@ function PageTransitions() {
 }
 function downloadFile(event) {
     event.preventDefault();
-    const fileUrl = 'https://drive.google.com/uc?id=1W9U7d0WV6zTxx6HPYzz7j8UiIAHSGxlO';
+    const fileUrl = 'https://drive.google.com/file/d/19siS62ooHbAxc4Noqb4_xKGtT2Mkv4N-/view?usp=share_link';
     const a = document.createElement('a');
     a.href = fileUrl;
     a.download = 'my-file.pdf';
